@@ -1,0 +1,10 @@
+homepage: "https://github.com/openkruise/kruise"
+main_repo: "https://github.com/openkruise/kruise"
+primary_contact: "yechun.yc@alibaba-inc.com"
+auto_ccs:
+  - "yechun.yc@alibaba-inc.com"
+language: go
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
