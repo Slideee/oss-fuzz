@@ -36,12 +36,12 @@ go get github.com/AdamKorcz/go-118-fuzz-build/testing
 #compile_native_go_fuzzer $SRC/kruise/pkg/util/workloadspread FuzzIsPodSelected fuzz_is_pod_selected
 #compile_native_go_fuzzer $SRC/kruise/pkg/util/workloadspread FuzzHasPercentSubset fuzz_has_percent_subset
 
-compile_native_go_fuzzer $SRC/kruise/pkg/webhook/workloadspread/validating FuzzValidateWorkloadSpreadSpec fuzz_validate_workloadspread_spec
+#compile_native_go_fuzzer $SRC/kruise/pkg/webhook/workloadspread/validating FuzzValidateWorkloadSpreadSpec fuzz_validate_workloadspread_spec
 #compile_native_go_fuzzer $SRC/kruise/pkg/webhook/workloadspread/validating FuzzValidateWorkloadSpreadSubsets fuzz_validate_workloadspread_subsets
 #compile_native_go_fuzzer $SRC/kruise/pkg/webhook/workloadspread/validating FuzzValidateWorkloadSpreadConflict fuzz_validate_workloadspread_conflict
 #compile_native_go_fuzzer $SRC/kruise/pkg/webhook/workloadspread/validating FuzzValidateWorkloadSpreadTargetRefUpdate fuzz_validate_workloadspread_target_ref_update
 
-
+compile_native_go_fuzzer $SRC/kruise/pkg/controller/uniteddeployment FuzzParseSubsetReplicas fuzz_parse_subset_replicas
 
 
 
