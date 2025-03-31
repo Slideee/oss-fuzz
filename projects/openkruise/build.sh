@@ -42,6 +42,7 @@ go get github.com/AdamKorcz/go-118-fuzz-build/testing
 #compile_native_go_fuzzer $SRC/kruise/pkg/webhook/workloadspread/validating FuzzValidateWorkloadSpreadTargetRefUpdate fuzz_validate_workloadspread_target_ref_update
 
 compile_native_go_fuzzer $SRC/kruise/pkg/controller/uniteddeployment FuzzParseSubsetReplicas fuzz_parse_subset_replicas
+compile_native_go_fuzzer $SRC/kruise/pkg/controller/uniteddeployment FuzzApplySubsetTemplate fuzz_apply_subset_template
 
 
 
