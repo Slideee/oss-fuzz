@@ -15,4 +15,4 @@
 #
 ################################################################################
 
-$SRC/containerd/pkg/util/fuzz/oss_fuzz_build.sh
+$SRC/kruise/pkg/util/fuzz/oss_fuzz_build.sh
