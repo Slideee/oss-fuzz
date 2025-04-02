@@ -14,5 +14,4 @@
 # limitations under the License.
 #
 ################################################################################
-#chmod u+x $SRC/kruise/pkg/util/fuzz/oss_fuzz_build.sh
 $SRC/kruise/pkg/util/fuzz/oss_fuzz_build.sh
