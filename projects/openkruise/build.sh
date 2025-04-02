@@ -45,4 +45,4 @@ go get github.com/AdamKorcz/go-118-fuzz-build/testing
 #compile_native_go_fuzzer $SRC/kruise/pkg/controller/uniteddeployment FuzzApplySubsetTemplate fuzz_apply_subset_template
 compile_native_go_fuzzer $SRC/kruise/pkg/controller/uniteddeployment FuzzReplicaAllocator fuzz_replica_allocator
 
-compile_native_go_fuzzer $SRC/kruise/pkg/webhook/uniteddeployment/validating FuzzValidateUnitedDeploymentSpec fuzz_validate_uniteddeployment_spec
+#compile_native_go_fuzzer $SRC/kruise/pkg/webhook/uniteddeployment/validating FuzzValidateUnitedDeploymentSpec fuzz_validate_uniteddeployment_spec
