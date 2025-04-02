@@ -1,4 +1,4 @@
-#!/bin/bash -eu
+##!/bin/bash -eu
 # Copyright 2021 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 ################################################################################
-#chmod u+x $SRC/kruise/pkg/util/fuzz/oss_fuzz_build.sh
+chmod u+x $SRC/kruise/pkg/util/fuzz/oss_fuzz_build.sh
 $SRC/kruise/pkg/util/fuzz/oss_fuzz_build.sh
