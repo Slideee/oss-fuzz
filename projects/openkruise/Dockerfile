@@ -15,6 +15,6 @@
 ################################################################################
 
 FROM gcr.io/oss-fuzz-base/base-builder-go
-RUN git clone --branch feat_fuzz --depth 1 https://github.com/Slideee/kruise
+RUN git clone --branch fz --depth 1 https://github.com/Slideee/kruise
 COPY build.sh $SRC/
 WORKDIR $SRC/kruise
